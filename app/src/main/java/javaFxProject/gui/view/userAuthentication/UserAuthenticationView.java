@@ -44,7 +44,7 @@ public class UserAuthenticationView {
         //BINDINGs
         usernameTextField.disableProperty().bind(viewModel.cannotChangeUsername());
         usernameTextField.textProperty().bindBidirectional(viewModel.enteredUsername());
-
+        System.out.println("sello");
         passwordField.disableProperty().bind(viewModel.cannotChangePassword());
         passwordField.textProperty().bindBidirectional(viewModel.enteredPassword());
 

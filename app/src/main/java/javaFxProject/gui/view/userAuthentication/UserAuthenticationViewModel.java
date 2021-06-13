@@ -18,7 +18,7 @@ public class UserAuthenticationViewModel {
     private final BooleanProperty cannotChangePassword;
     private final StringProperty enteredPassword;
     private final SimpleStringProperty usernameHintMessage;
-    private final BooleanBinding  shouldShowUsernameHint;
+    private final BooleanBinding shouldShowUsernameHint;
     private final StringProperty passwordHintMessage;
     private final BooleanProperty shouldShowPasswordHint;
     private final SimpleBooleanProperty loginInProgress = new SimpleBooleanProperty();
